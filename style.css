@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, sans-serif;;
+}
+header{
+    width: 100%;
+    height: 100%;
+}
+.Shipping{
+    height: 40px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(41,41,40);
+}
+.Shipping a{
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.Shipping:hover{
+    background-color: rgb(41,41,40);
+}
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 874;
+    background-color: #000;
+    height: 88px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 55px;
+}
+.nav-bar-logo{
+    height: 27px;
+    width: 120px;   
+}
+.menu{
+    display: flex;
+    margin-left: 18px;
+    gap: 28px;
+}
+.menu a{
+    color: #c0bdbd;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.menu a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.nav-icons{
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+
+}
+.nav-icon{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+section{
+    height: 100%;
+    width: 100%;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding: 36px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.products img{
+    width: 341px;
+    height: 342px;
+    display: block;
+    transition: trasform 0.3s;
+}
+.products img:hover{
+    transform: scale(1.05);
+}
+.founder{
+    display: flex;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+    gap: 80px;
+    align-items: center;
+}
+.founder img{
+    height: 500px;
+    width: 375px;
+}
+.founder-note{
+    font-family: 'Times New Roman', Times, serif;
+}
+.founder-note h3{
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 30px;
+
+}
+.founder-note p{
+    font-size: 22px;
+    color: #201f1faf;
+    margin-bottom: 40px;
+}
+.about{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #000;
+    cursor: pointer;
+}
+.about:hover{
+    background-color: #333;
+}
+.about h4{
+    color: #fff;
+    font-size: 14px;
+}
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+.footerone{
+    padding: 60px 20px;
+    text-align: center;
+}
+.footerone p{
+    font-size: 18px;
+    color: #b4b2b2;
+    margin-top: 16px ;
+}
+.footer .contact{
+    color: #fff;
+    font-size: 20px;
+}
+.footerone a{
+    color: #fff;
+    text-decoration: underline;
+}
+.footerone:hover{
+    color: #fff;
+}
+.footertwo{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #424242;
+    padding: 30px 50px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.footertwo p{
+    color: #ccc;
+    font-size: 14px;
+}
+.footertwo a{
+    text-decoration: none;
+}
+.footertwo a:hover p{
+    color: #fff;
+    text-decoration: underline;
+}
+.footertwo ul{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    gap: 25px;
+}
+.footertwo li{
+    color: #ccc;
+    font: 14px;
+    cursor: pointer;
+}
+.footertwo li:hover{
+    color: #fff;
+    text-decoration: underline;
+    
+}
+
+    
